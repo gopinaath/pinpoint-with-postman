@@ -1,7 +1,8 @@
 # pinpoint-with-postman -- sample
 
-First, configure Postman with AWS Creds - API Key, API Secret, Region.  Ensure that the credential has privileges to execute Pinpoint APIs
-https://docs.aws.amazon.com/pinpoint/latest/developerguide/tutorials-using-postman.html.
+First, configure Postman with AWS Creds - API Key, API Secret, Region.  Ensure that the credential has privileges to execute Pinpoint APIs.  
+https://docs.aws.amazon.com/pinpoint/latest/developerguide/tutorials-using-postman-iam-user.html
+https://docs.aws.amazon.com/pinpoint/latest/developerguide/tutorials-using-postman-configuration.html
 
 ![Screenshot](page-2.png)
 
