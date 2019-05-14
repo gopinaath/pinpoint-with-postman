@@ -1,6 +1,6 @@
-# pinpoint-with-postman
+# pinpoint-with-postman -- samplen
 
-
+-- Configure Postman with AWS Creds - API Key, API Secret, Region.  Ensure that the credential has privileges to execute Pinpoint APIs
 
 ![Screenshot](page-2.png)
 
