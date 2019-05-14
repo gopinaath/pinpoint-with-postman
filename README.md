@@ -10,6 +10,8 @@ https://docs.aws.amazon.com/cli/latest/reference/pinpoint/send-messages.html
 ![Screenshot](page-2.png)
 
 
+Please note that the following schema does not have ```SenderId``` and ```Substitutions```.  ```SenderId``` is not used in the US.  ```Substitutions``` is needed only to dynamically replace text in the message.
+
 ```
 {
   "Addresses": {
@@ -22,9 +24,7 @@ https://docs.aws.amazon.com/cli/latest/reference/pinpoint/send-messages.html
       "Body": "SMS-Body-1-from ..",
       "Keyword": "<<Pinpoint Keyword>>",
       "MessageType": "TRANSACTIONAL",
-      "OriginationNumber": "+1<<Pinpoint US Phone Number>>",
-      "SenderId": "MySenderID",
-      "Substitutions":{}
+      "OriginationNumber": "+1<<Pinpoint US Phone Number>>"
     }
   }
 }
