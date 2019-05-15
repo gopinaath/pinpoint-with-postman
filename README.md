@@ -29,3 +29,7 @@ Please note that the following schema does not have ```SenderId``` and ```Substi
   }
 }
 ```
+
+*** AWS CLI
+aws pinpoint send-messages --debug --region us-west-2 --application-id <<Pinpoint-project-ID>> --message-request '{"Addresses": {"+<<Customer Phone Number>>":{"ChannelType": "SMS"}}, "MessageConfiguration": {"SMSMessage": {"Body": "SMS-Body-1", "Keyword": "<<Pinpoint Keyword>>", "MessageType": "TRANSACTIONAL", "OriginationNumber": "+<<Pinpoint US Phone Number>>", "SenderId": "MySenderID"}}}'
+ 
